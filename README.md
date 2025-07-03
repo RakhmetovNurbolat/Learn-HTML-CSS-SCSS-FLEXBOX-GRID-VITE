@@ -4,3 +4,4 @@
 # Required extensions in VScode for this project
 *Live server
 *Prettier
+*eCSStractor for VSCode
