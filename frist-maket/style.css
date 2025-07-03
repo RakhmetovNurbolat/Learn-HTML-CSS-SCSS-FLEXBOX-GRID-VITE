@@ -25,7 +25,61 @@ body{
 
 .award__images{
     position: absolute;
-    right: 200px;
+    right: 250px;
     top: 10px;
     cursor: pointer;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* start header */
+.header{
+    background-color: #00353B;
+    
+}
+
+.header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.header__nav{
+    display: flex;
+    gap: 24px;
+}
+
+.header__card{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.header__menu{
+    display: flex;
+    gap: 8px;
+}
+
+.header__menu img{
+    height: 25px;
+}
+.header__menu a{
+    font-size: 17px;
+}
+
+.header__button{
+    padding: 13px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* finish header */

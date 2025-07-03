@@ -2,5 +2,6 @@
 * another course Vassilyi Gudomarov [udemy.com](https://www.udemy.com/course/html-css-gg/learn/lecture/42281890)
 
 # Required extensions in VScode for this project
-*Live server
-*Prettier
+* Live server
+* Prettier
+* eCSStractor for VSCode
