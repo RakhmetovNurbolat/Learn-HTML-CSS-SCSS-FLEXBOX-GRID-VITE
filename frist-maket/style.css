@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-family: "DM Sans", sans-serif;
+}
+
+.award{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    background-color: #f5f5f5;
+}
+
+.award__p{
+    font-size: 15px;
+    color: #4B5563;
+}
+
+.award__images{
+    position: absolute;
+    right: 200px;
+    top: 10px;
+    cursor: pointer;
+}
