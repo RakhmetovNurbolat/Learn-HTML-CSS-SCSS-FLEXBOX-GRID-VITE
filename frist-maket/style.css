@@ -29,3 +29,14 @@ body{
     top: 10px;
     cursor: pointer;
 }
+
+.wrapper{
+    max-width: 1280x;
+    margin: 0 auto;
+}
+/* start header */
+.header{
+    background-color: #00353B;
+    height: 72px;
+}
+/* finish header */
