@@ -5,3 +5,7 @@
 * Live server
 * Prettier
 * eCSStractor for VSCode
+
+#useful links
+* [htmlbook](https://htmlbook.ru/html/video)
+* [icoMoon] (https://icomoon.io/)
