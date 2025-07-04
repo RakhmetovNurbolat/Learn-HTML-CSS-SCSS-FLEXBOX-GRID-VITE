@@ -83,3 +83,132 @@ a{
     cursor: pointer;
 }
 /* finish header */
+
+.main{
+    background-color: #00353B;
+}
+
+/* section one start */
+.section {
+    padding: 50px 0;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+  
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.content__info {
+    width: 100%;
+}
+
+.content_h1{
+     font-family: "Poppins", sans-serif;
+     font-size: 56px;
+     margin-bottom: 30px;
+     color: #fff;
+     font-weight: 400;
+     line-height: 67px;
+}
+.content__text{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.content__button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 48px;
+}
+.content__btn1 {
+    background-color: #22A45A;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 25px;
+    font-style: 16px;
+    cursor: pointer;
+}
+#content__btn2 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+#content__btn2 p{
+    font-size: 16px;
+    color: #fff;
+}
+
+#content__btn2 img{
+    width: 25px;
+    height: 25px;
+}
+
+.content__video {
+    position: relative;
+}
+
+#content__videos{
+    width: 600px;
+    height: 640px;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.reviews__images {
+    display: flex;
+    align-items: center;
+}
+.reviews__img {
+    width: 48px;
+    height: 48px;
+}
+.reviews__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.reviews__rating p{
+    color: #fff;
+    font-style: 16px;
+    text-align: center;
+}
+.icon-star-full, .icon-star-half{
+    font-size: 26px;
+    color: #E0B420;
+}
+
+.reviews__rating__rat{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.content__video-bg{
+    position: absolute;
+    left: -20%;
+    bottom: 10%;
+}
+/* section one end */
+
+.main__title{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
