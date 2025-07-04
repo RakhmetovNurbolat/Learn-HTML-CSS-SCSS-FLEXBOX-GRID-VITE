@@ -6,6 +6,6 @@
 * Prettier
 * eCSStractor for VSCode
 
-#useful links
+# useful links
 * [htmlbook](https://htmlbook.ru/html/video)
-* [icoMoon] (https://icomoon.io/)
+* [icoMoon](https://icomoon.io/)
