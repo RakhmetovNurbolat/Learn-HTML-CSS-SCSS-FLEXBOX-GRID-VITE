@@ -38,3 +38,9 @@ p{
    box-shadow: 4px 8px 10px #111;;
 
 }
+img{
+   filter: blur(2px);
+   filter: brightness(10%);
+   filter: contrast(200%);
+   filter: grayscale(100%);
+}
