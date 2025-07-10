@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
    margin: 0;
    padding: 0;
@@ -5,7 +6,7 @@
 }
 body{
    height: 100vh;
-   background-color: #fff;
+   background-color: #726baf;
    color: #111;
    font-family: Arial, Helvetica, sans-serif;
    font-size: 20px;
@@ -28,11 +29,11 @@ body{
    text-align-last: right;
 } */
 
-.d1{
-   width: 200px;
-   height: 200px;
+p{
+   font-family: "Roboto", sans-serif;
+   background-color: #fff;
+   padding: 20px 10px;
+   min-height: 200px;
    border-radius: 10px;
-   -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
-   -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
-   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+   box-shadow: 4px 8px 10px #111;
 }
