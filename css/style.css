@@ -15,6 +15,9 @@ body{
    gap: 20px;
 }
 
-.d1 > span{
-   color: orange;
-}
+/* [title ^= "tex"]{
+   color: red;
+} */
+/* [title $= "xt"]{
+   color: red;
+} */
