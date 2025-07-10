@@ -14,14 +14,7 @@ body{
    justify-content: center;
    gap: 20px;
 }
-.id{
-   border: 2px solid white;
-   padding: 20px;
-   width: 250px;
-   height: 250px;
-  
-}
 
-.title{
-    background-color: orange;
+.d1 > span{
+   color: orange;
 }
