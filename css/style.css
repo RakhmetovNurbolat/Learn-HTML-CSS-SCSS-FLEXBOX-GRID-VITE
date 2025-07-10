@@ -29,10 +29,6 @@ body{
 } */
 
 p{
-   padding: 20px;
-   text-decoration: overline;
-   text-decoration: line-through;
-   text-decoration: underline;
-   text-decoration: underline overline wavy red;
-   text-decoration: underline overline double green;
+   text-shadow: 5px 5px 3px #ccc;
 }
+
