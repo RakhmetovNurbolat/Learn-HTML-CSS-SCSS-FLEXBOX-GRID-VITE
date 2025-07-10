@@ -31,11 +31,10 @@ body{
 p{
    font-family: "Roboto", sans-serif;
    font-family: 'Lobster';
-   background-color: #fff;
+   background-color: lightgreen;
    padding: 20px 10px;
    min-height: 200px;
-   border-radius: 10px;
-   box-shadow: 4px 8px 10px #111;
-   background-image: linear-gradient(to left, red, blue);
-   background-image: radial-gradient(circle, purple, yellow);
+   border-radius: 40px 20px 100px;
+   box-shadow: 4px 8px 10px #111;;
+
 }
