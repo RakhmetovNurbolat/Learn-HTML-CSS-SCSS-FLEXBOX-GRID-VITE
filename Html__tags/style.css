@@ -1,7 +1,9 @@
 div{
    margin-bottom: 12px;
 }
-input{
-   display: block;
-   margin-bottom: 15px;
+
+textarea{
+   width: 400px;
+   height: 500px;
+   resize: vertical;
 }
