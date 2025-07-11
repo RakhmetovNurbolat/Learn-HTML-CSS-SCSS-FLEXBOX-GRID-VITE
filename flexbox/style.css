@@ -15,18 +15,22 @@ body{
    margin: 5rem;
 }
 .flex{
-   width: 60rem;
+   width: 90%;
    margin: 0 auto;
    padding: 1rem;
    border: .2rem solid var(--color-white);
    border-radius: var(--radius-10);
    display: flex;
-   /* flex-wrap: nowrap; */
-   /* flex-wrap: wrap;
-   flex-wrap: wrap-reverse; */
+   flex-direction: row;
+   justify-content: flex-start;
+   justify-content: flex-end;
+   justify-content: center;
+   justify-content: space-between;
+   justify-content: space-around;
+   justify-content: space-evenly;
 }
 .box{
-   width: 25rem;
+   width: 10rem;
    min-height: 15rem;
    border: .3rem solid var(--color-white);
    font-size: var(--fz40px);
