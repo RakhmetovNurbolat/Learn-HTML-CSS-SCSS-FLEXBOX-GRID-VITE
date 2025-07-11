@@ -14,27 +14,39 @@ body{
    font-size: 20px;
    display: flex;
    justify-content: center;
+   align-items: center;
    gap: 20px;
 }
-.d1{
-   background-color: #3929cc;
-   width: 90%;
-   padding: 100px;
-   border-radius: 10px;
-   font-size: 4rem;
-   color: #111;
-   /* display: flex;
-   align-items: center;
-   justify-content: center; */
+.box{
+   padding: 1.5rem;
+   border: .1rem solid yellow;
+   border-radius: 1.5rem;
 }
-
-/* .d2{
-   width: 200px;
-   height: 200px;
-   border: 1px solid red;
-   overflow: auto;
-   opacity: 0;
-} */
- a{
-   font-size: 5rem;
- }
+p{
+   width: 25rem;
+}
+.box1{
+   width: 25rem;
+   height: 20rem;
+   background-color: #c55d8a;
+   margin-bottom: 3rem;
+   /* transform: translate(10rem, 10rem); */
+   /* transform: translateX(10rem);
+   transform: translateY(5rem); */
+   /* transform: scale(2, 2); */
+   /* transform: rotate(45deg); */
+   /* transform: skew(20deg, 20deg); */
+   /* transform: translate(5rem, 5rem) scale(2, 1.5) rotate(10deg); */
+   transition: all .5s ease-in;
+}
+.box1:hover{
+   /* transform: translate(10rem, 15rem); */
+   /* transform: scale(.5); */
+   /* transform: rotate(20deg); */
+   /* transform-origin: top right;
+   transform: rotate(-45deg); */
+}
+.box:hover .box1{
+   transform-origin: top right;
+   transform: rotate(-45deg);
+}
