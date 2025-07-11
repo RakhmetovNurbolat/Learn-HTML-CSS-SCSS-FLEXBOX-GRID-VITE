@@ -3,6 +3,9 @@
    padding: 0;
    box-sizing: border-box;
 }
+html{
+   font-size: 62.5%;
+}
 body{
    height: 100vh;
    background-color: #726baf;
@@ -15,38 +18,16 @@ body{
    gap: 20px;
 }
 .d1{
-   width: 500px;
    background-color: #3929cc;
-   padding: 20px;
+   width: 80%;
+   height: 400px;
+   width: 80vw;
+   height: 75vh;
+   font-size: 4rem;
 }
-
-.box{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   font-size: 24px;
-   width: 150px;
-   height: 150px;
+/* p{
+   font-size: 2em;
 }
-
-.one{
-   background-color: orange;
-   /* position: relative;
-   top: 20px;
-   left: 20px; */
-   /* position: absolute; */
-   /* position: fixed;
-   top: 20px;
-   left: 30px; 
-   z-index: 1;
-   */
-}
-.two{
-   background-color: red;
-}
-.three{
-   background-color: rgb(72, 180, 39);
-}
-.four{
-   background-color: blueviolet;
-}
+span{
+   font-size: 2em;
+} */
