@@ -19,15 +19,31 @@ body{
 }
 .d1{
    background-color: #3929cc;
-   width: 80%;
-   height: 400px;
-   width: 80vw;
-   height: 75vh;
+   width: 90%;
+   padding: 15px;
+   border-radius: 10px;
+   font-size: 2rem;
+   color: #111;
+}
+.p1::first-letter{
+   color: red;
    font-size: 4rem;
 }
-/* p{
-   font-size: 2em;
+.p2{
+   width: 20%;
 }
-span{
-   font-size: 2em;
-} */
+.p2::first-line{
+   color: blue;
+}
+p::selection{
+   background-color: #111;
+   color: red;
+}
+.p3::before{
+   content: "";
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   background-color: green;
+
+}
