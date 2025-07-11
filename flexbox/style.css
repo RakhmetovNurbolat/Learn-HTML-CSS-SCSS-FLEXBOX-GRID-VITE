@@ -28,10 +28,15 @@ body{
    border: .3rem solid var(--color-white);
    font-size: var(--fz40px);
    color: var(--color-black);
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .box1{
    background: tomato;
+   flex-grow: 1;
 }
 .box2{
    background-color: yellowgreen;
+   flex-grow: 1;
 }
