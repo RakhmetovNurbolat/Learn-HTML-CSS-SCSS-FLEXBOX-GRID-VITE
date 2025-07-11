@@ -11,3 +11,5 @@
 * [icoMoon](https://icomoon.io/)
 * [Мнемоники в HTML](https://ru.wikipedia.org/wiki/%D0%9C%D0%BD%D0%B5%D0%BC%D0%BE%D0%BD%D0%B8%D0%BA%D0%B8_%D0%B2_HTML)
 * [iconicon](https://icon-icons.com/)
+* [caniuse](https://caniuse.com/)
+* [normalize.css](https://github.com/necolas/normalize.css?tab=readme-ov-file)
