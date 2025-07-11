@@ -13,21 +13,19 @@ body{
    font-family: Arial, Helvetica, sans-serif;
    font-size: 20px;
    display: flex;
-   align-items: center;
    justify-content: center;
    gap: 20px;
 }
 .d1{
    background-color: #3929cc;
    width: 90%;
-   padding: 15px;
+   padding: 100px;
    border-radius: 10px;
-   font-size: 2rem;
+   font-size: 4rem;
    color: #111;
    /* display: flex;
    align-items: center;
    justify-content: center; */
-   clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%)
 }
 
 /* .d2{
@@ -39,5 +37,4 @@ body{
 } */
  a{
    font-size: 5rem;
-   opacity: 0;
  }
