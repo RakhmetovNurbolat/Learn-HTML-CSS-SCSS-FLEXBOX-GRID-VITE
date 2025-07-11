@@ -37,14 +37,13 @@ body{
 }
 .box1{
    background: tomato;
+   order: 2
 }
 .box2{
    background-color: yellowgreen;
+   order: 1
 
 }
 .box3{
    background-color: #161c53;
-   align-self: flex-start;
-   align-self: center;
-   align-self: flex-end;
 }
