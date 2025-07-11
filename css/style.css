@@ -25,25 +25,14 @@ body{
    font-size: 2rem;
    color: #111;
 }
-.p1::first-letter{
-   color: red;
-   font-size: 4rem;
+.d2{
+   width: 400px; 
+   height: 400px;
+   background-color: tomato;
+   transition: all .5s;
 }
-.p2{
-   width: 20%;
-}
-.p2::first-line{
-   color: blue;
-}
-p::selection{
-   background-color: #111;
-   color: red;
-}
-.p3::before{
-   content: "";
-   position: absolute;
-   width: 20px;
-   height: 20px;
-   background-color: green;
-
+.d2:hover{
+   background-color: rgb(102, 214, 102);
+   width: 200px;
+   height: 200px;
 }
