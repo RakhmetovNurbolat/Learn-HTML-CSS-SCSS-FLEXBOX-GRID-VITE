@@ -23,7 +23,7 @@ body{
 
 }
 .box{
-   width: 15rem;
+   width: 200%;
    min-height: 15rem;
    border: .3rem solid var(--color-white);
    font-size: var(--fz40px);
@@ -34,9 +34,14 @@ body{
 }
 .box1{
    background: tomato;
-   flex-grow: 1;
+   flex-shrink: 2;
 }
 .box2{
    background-color: yellowgreen;
-   flex-grow: 1;
+   flex-shrink: 4;
+}
+.box3{
+   background-color: #161c53;
+   color: var(--color-white);
+   flex-shrink: 3;
 }
