@@ -36,6 +36,7 @@ body{
    grid-gap: 20px;
    grid-template-columns: repeat(3, 1fr) 25rem;
    grid-template-rows: 10rem 1fr 30rem 10rem;
+   grid-template-areas: 'box1 box1 box1 box1' 'box2 box3 box4 box5' 'box6 box6 box6 box5' 'ft ft ft ft';
 }
 .box {
    border: .2rem solid var(--color-white);
@@ -46,25 +47,23 @@ body{
   
 }
 .box1 {
-   grid-column: 1 / -1;
-   grid-row: 1 / 2;
+   grid-area: box1;
 }
 .box2 {
-
+   grid-area: box2;
 }
 .box3 {
+   grid-area: box3;
 }
 .box4 {
+   grid-area: box4;
 }
 .box5 {
-   grid-column: 4 / -1;
-   grid-row: 2 / 4;
-
+   grid-area: box5;
 }
 .box6 {
-   grid-column: 1 / span 3;
+   grid-area: box6;
 }
 .box7 {
-   grid-column: 1 / -1;
-   grid-row: 4 / 5;
+   grid-area: ft;
 }
