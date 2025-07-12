@@ -34,8 +34,8 @@ body{
    );
    display: grid;
    grid-gap: 20px;
-   grid-template-columns: repeat(4, 1fr);
-
+   grid-template-columns: repeat(3, 1fr) 25rem;
+   grid-template-rows: 10rem 1fr 30rem 10rem;
 }
 .box {
    border: .2rem solid var(--color-white);
@@ -46,24 +46,25 @@ body{
   
 }
 .box1 {
-   grid-column: 1 / span 3;
-   grid-row: 1 / span 2;
-   background-color: yellow;
-   z-index: 1;
+   grid-column: 1 / -1;
+   grid-row: 1 / 2;
 }
 .box2 {
-   grid-column: 2 / -1;
-   grid-row: 1 / 2;
-   background-color: red;
+
 }
 .box3 {
 }
 .box4 {
 }
 .box5 {
+   grid-column: 4 / -1;
+   grid-row: 2 / 4;
 
 }
 .box6 {
+   grid-column: 1 / span 3;
 }
 .box7 {
+   grid-column: 1 / -1;
+   grid-row: 4 / 5;
 }
