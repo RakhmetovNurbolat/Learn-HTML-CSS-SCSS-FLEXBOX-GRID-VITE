@@ -13,3 +13,4 @@
 * [iconicon](https://icon-icons.com/)
 * [caniuse](https://caniuse.com/)
 * [normalize.css](https://github.com/necolas/normalize.css?tab=readme-ov-file)
+* [Шпаргалка по Grid CSS](https://tpverstak.ru/grid/)
