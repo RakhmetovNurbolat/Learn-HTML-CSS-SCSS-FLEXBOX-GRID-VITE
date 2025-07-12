@@ -32,6 +32,19 @@ body{
       rgba(94,74,91,1) 49%,
       rgba(40,49,43,1) 71%
    );
+   display: grid;
+   grid-template-columns: 15rem;
+   grid-template-columns: 15rem 15rem;
+   grid-template-columns: 25rem 25rem 25rem;
+   grid-template-columns: 30% 10rem 35rem 12rem;
+   grid-template-rows: 30rem;
+   grid-template-rows: 15rem 50%;
+   grid-template-rows: 15rem 50% 25rem;
+   grid-template-rows: 18rem 20rem;
+   grid-column-gap: 2.5rem;
+   grid-row-gap: 2rem;
+   grid-gap: 1rem 3rem;
+   grid-gap: 3rem;
 }
 .box {
    border: .2rem solid var(--color-white);
@@ -39,6 +52,7 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
+  
 }
 .box1 {
 }
