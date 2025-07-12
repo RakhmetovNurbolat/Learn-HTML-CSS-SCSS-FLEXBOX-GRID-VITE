@@ -33,11 +33,9 @@ body{
       rgba(40,49,43,1) 71%
    );
    display: grid;
-   grid-template-columns: max-content repeat(2, 1fr);
-   grid-template-columns: min-content repeat(2, 1fr) 10rem;
-   grid-template-columns: minmax(30rem, max-content);
-   grid-template-columns: minmax(30rem, 1fr);
-   grid-template-columns: minmax(30rem, 1fr) 1fr 50%;
+   grid-template-columns: repeat(2, minmax(18rem, 1fr));
+   grid-template-columns: repeat(auto-fit, 10rem);
+   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
    
    
 }
