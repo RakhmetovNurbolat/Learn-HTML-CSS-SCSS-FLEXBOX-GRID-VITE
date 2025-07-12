@@ -24,7 +24,7 @@ body{
 .grid{
    border-radius: var(--radius-10);
    padding: 2rem;
-   min-height: 40rem;
+   min-height: 80rem;
    background: #000;
    background: linear-gradient(
       41deg,
@@ -33,15 +33,11 @@ body{
       rgba(40,49,43,1) 71%
    );
    display: grid;
-   grid-gap: 20px;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(2, 15rem);
-   /* justify-items: end;
-   justify-items: start;
-   justify-items: center;
-   align-items: start;
-   align-items: center;
-   align-items: end; */
+   grid-gap: 2rem;
+   grid-template-columns: repeat(2, 15rem);
+   grid-template-rows: repeat(4,10rem);
+   justify-content: center;
+   align-content: center;
    
 }
 .box {
@@ -53,12 +49,6 @@ body{
   
 }
 .box1 {
-   justify-self: start;
-   justify-self: center;
-   justify-self: end;
-   align-self: start;
-   align-self: center;
-   align-self: end;
 }
 .box2 {
 
